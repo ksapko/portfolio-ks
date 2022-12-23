@@ -1,0 +1,40 @@
+.img-shape {
+  border-radius: 66% 34% 71% 29% / 35% 31% 69% 65%;
+  transition: border-radius 300ms ease-in-out;
+}
+
+.img-shape:hover {
+  border-radius: 25% 75% 38% 62% / 64% 60% 40% 36%;
+}
+
+header {
+  height: 100vh;
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+.header-container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.info {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.header-socials {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 35px;
+  position: relative;
+  top: 30px;
+}
+
+.header-socials a {
+  font-size: 25px;
+}
