@@ -3,6 +3,7 @@ import "./header.css";
 import Info from "./Info";
 import me from "./../../../src/asserts/me.jpg";
 import HeaderSocials from "./HeaderSocials";
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Header = () => {
   return (
@@ -15,7 +16,9 @@ const Header = () => {
         <div className="me">
           <img className="img-shape" src={me} alt="me" />
         </div>
-        <a href="#contact" className="scroll-down"></a>
+        <a href="#contact" className="scroll-down">
+          Scroll Dwon <AiOutlineArrowDown />
+        </a>
         <HeaderSocials />
       </div>
     </header>

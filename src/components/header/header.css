@@ -30,11 +30,38 @@ header {
   display: flex;
   justify-content: center;
   margin: auto;
-  gap: 35px;
+  gap: 15px;
   position: relative;
-  top: 30px;
+  top: 40px;
 }
 
 .header-socials a {
   font-size: 25px;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 35px;
+  right: 0;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-socials {
+    display: none;
+  }
+
+  .scroll-down {
+    display: none;
+  }
 }

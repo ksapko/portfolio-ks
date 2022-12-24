@@ -16,7 +16,7 @@
   --color-white: rgb(255, 255, 255);
   --color-black: rgb(0, 0, 0);
 
-  --container-width-lg: 75%;
+  --container-width-lg: 85%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
 }
@@ -105,7 +105,7 @@ a:hover {
 
 img {
   display: block;
-  width: 30%;
+  width: 25%;
   object-fit: cover;
   margin-left: auto;
   margin-right: auto;
