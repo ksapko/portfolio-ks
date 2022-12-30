@@ -16,8 +16,9 @@
   --color-white: rgb(255, 255, 255);
   --color-black: rgb(0, 0, 0);
 
+  --transition: all 400ms easy;
+
   --container-width-lg: 85%;
-  --container-width-md: 86%;
   --container-width-sm: 90%;
 }
 
@@ -40,6 +41,11 @@ body {
   margin: 0 auto;
 }
 
+section {
+  margin-top: 192px;
+  height: 100vh;
+}
+
 h1,
 h2,
 h3,
@@ -52,10 +58,6 @@ h1 {
   font-size: 30px;
 }
 
-section {
-  margin-top: 40px;
-}
-
 section > h2,
 section > h5 {
   text-align: center;
@@ -64,7 +66,8 @@ section > h5 {
 
 section > h2 {
   color: var(--color-primary);
-  margin-bottom: 20px;
+  padding: 40px;
+  margin-bottom: 50px;
 }
 
 .text-light {
@@ -73,7 +76,7 @@ section > h2 {
 
 a {
   color: var(--color-primary);
-  transition: all 400ms ease;
+  transition: var(--transition);
   font-size: 18px;
 }
 
@@ -105,11 +108,11 @@ a:hover {
 
 img {
   display: block;
-  width: 25%;
+  width: 27%;
   object-fit: cover;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4%;
+  margin-top: 5%;
 }
 
 @media screen and (max-width: 600px) {

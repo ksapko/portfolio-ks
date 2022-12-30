@@ -20,7 +20,7 @@ header {
 }
 
 .info {
-  margin-top: 15px;
+  margin-top: 25px;
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -28,21 +28,22 @@ header {
 
 .header-socials {
   display: flex;
-  justify-content: center;
-  margin: auto;
-  gap: 15px;
-  position: relative;
-  top: 40px;
+  flex-direction: column;
+  gap: 17px;
+  position: absolute;
+  left: 23%;
+  bottom: 40%;
 }
 
 .header-socials a {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .scroll-down {
   position: absolute;
   bottom: 35px;
-  right: 0;
+  margin: auto;
+  /* right: 0; */
   font-size: 12px;
 }
 
