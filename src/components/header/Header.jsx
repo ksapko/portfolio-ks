@@ -3,7 +3,7 @@ import "./header.css";
 import Info from "./Info";
 import me from "./../../../src/asserts/me.jpg";
 import HeaderSocials from "./HeaderSocials";
-import { AiOutlineArrowDown } from "react-icons/ai";
+// import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Header = () => {
   return (
@@ -13,13 +13,13 @@ const Header = () => {
         <h1>Kasia</h1>
         <h4 className="text-light">Junior Web Developer</h4>
         <Info />
+        <HeaderSocials />
         <div className="me">
           <img className="img-shape" src={me} alt="me" />
         </div>
-        <a href="#contact" className="scroll-down">
+        {/* <a href="#contact" className="scroll-down">
           Scroll Dwon <AiOutlineArrowDown />
-        </a>
-        <HeaderSocials />
+        </a> */}
       </div>
     </header>
   );
